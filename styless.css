@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeb3b;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-bottom: 5px solid #ffa000;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ffa000;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.lemonade-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ffa000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff8f00;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
